@@ -18,7 +18,7 @@ public class Game {
                 if (Objects.equals(computerUser.getChoice(), "rock")) {
                     System.out.println("You wrapped him up! You win!");
                     return true;
-                } else if (computerUser.getChoice() == "scissors") {
+                } else if (Objects.equals(computerUser.getChoice(), "scissors")) {
                     System.out.println("You got snipped up! You lose!");
                     return true;
                 } else {
