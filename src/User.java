@@ -16,6 +16,7 @@ public class User implements players {
         this.name = user_input.next();
     }
 
+    @Override
     public void setChoice(){
         while (true) {
             System.out.println("Enter your choice (rock, paper, or scissors): ");
@@ -32,6 +33,7 @@ public class User implements players {
         return name;
     }
 
+    @Override
     public String getChoice (){
         return playerChoice;
     }

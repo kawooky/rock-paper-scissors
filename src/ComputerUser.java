@@ -15,6 +15,7 @@ public class ComputerUser implements players {
         this.computerChoice = choices.get(index);
     }
 
+    @Override
     public String getChoice (){
         return computerChoice;
     }
